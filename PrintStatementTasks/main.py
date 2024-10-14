@@ -9,7 +9,6 @@ print(10 + 2)
 #3. I have also learned that Multiple Arguments in Print are possible by separating the arguments with a comma as seen below.
 print("Python", "is", "awesome!")
 
-
 #4. I have also learned that Print with Escape Characters can be used to output special characters like a quotation mark on the terminal as seen below.
 print("He said, \"Hi!\"")
 
