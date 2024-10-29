@@ -1,6 +1,5 @@
 marks = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-print(marks)
+print(marks[:4])
 
-names = ["Aniel", "Bro"]
-
-info = ["Aniel", 19, 10.130]
+name = input("What is ur name?: ")
+print("Hello", name)
