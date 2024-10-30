@@ -1,5 +1,3 @@
-marks = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-print(marks[:4])
-
-name = input("What is ur name?: ")
-print("Hello", name)
+nums1 = [1, 2, 3, 4, 5]
+nums1.reverse()
+print(nums1)
