@@ -1,13 +1,14 @@
-counter = int(input("What day are you on?: "))
-counter2 = int(input("What week are you on?: "))
+day = int(input("What day are you on?: "))
+week = int(input("What week are you on?: "))
 
-checker = (counter / 90) * 100
-checker2 = (counter2 / 13.04) * 100
+day_check = (day / 90) * 100
+week_check = (week / 13.04) * 100
 
-checker = round(checker, 2)
-checker2 = round(checker2, 2)
+day_check = round(day_check, 2)
+week_check = round(week_check, 2)
 
-print(str(counter) + "/90")
-print(str(counter2) + "/13")
-print("You are", str(checker) + "% done.")
-print("You are", str(checker2) + "% done.")
+print()
+print("Day", str(day) + "/90")
+print("Week", str(week) + "/13")
+print("You are", str(day_check) + "% done day-wise.")
+print("You are", str(week_check) + "% done week-wise.")
