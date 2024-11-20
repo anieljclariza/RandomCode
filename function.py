@@ -1,7 +1,5 @@
-def calculate_factorial(num):
-    factorial = 1
-    for i in range(1, i + 1):
-        factorial *= i
-        return factorial
+def sum(a, b):
+    c = a + b
+    return c
 
-print(calculate_factorial(2))
+print(sum(10, 120))
