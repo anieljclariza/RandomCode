@@ -1,6 +1,5 @@
 def calculator():
     try_again = ""
-    result = None
     while try_again.lower() != "n":
         num1 = int(input("Enter first number: "))
         num2 = int(input("Enter second number: "))
